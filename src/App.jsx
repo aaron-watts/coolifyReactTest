@@ -1,6 +1,7 @@
 import { Activity, useState, useEffect } from 'react';
 import ShowsSearchForm from './ShowsSearchForm';
 import Header from './Header';
+import Footer from './Footer';
 import Home from './Home';
 import Search from './Search';
 import Show from './Show';
@@ -119,6 +120,7 @@ function App() {
                     handleSeasonSelect={handleSeasonSelect}
                 />
             </main>
+            <Footer />
         </>
     );
 }
