@@ -1,0 +1,18 @@
+.ShowInfoHeader {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    & > div > p {
+        margin: 0;
+    }
+
+    & > img {
+        display: block;
+        margin-block-end: 1em;
+        margin-inline: 2em;
+        width: 210px;
+        max-width: 30vw;
+    }
+}
