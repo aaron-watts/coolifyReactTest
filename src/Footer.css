@@ -1,8 +1,8 @@
 img#github-logo {
-    content: url("src/assets/github-mark.png");
+    content: url("/github-mark.png");
 }
 @media (prefers-color-scheme: dark) {
     img#github-logo {
-        content: url("src/assets/github-mark-white.png");
+        content: url("/github-mark-white.png");
     }
 }
